@@ -1,0 +1,80 @@
+body{background-color:gray}
+h1{
+	line-height: 50px;
+}
+h2 
+{
+	line-height: 30px;
+	color: #9AA8AB;
+}
+h3{
+	color: #9AA8AB;
+}
+article
+{
+	background-color:white;
+	border:2px outset;
+	margin:10px;
+	padding:5px;
+}
+
+.tb td
+{
+	border: 1px solid gray;
+}
+th
+{
+	text-align:left;
+	background-color:black;
+	color:white;
+	border: 1px solid gray;
+}
+#tf/*为专门的一行表格设置样式*/
+{
+	background-color:gray;
+}	
+div
+{
+	background-color:white;
+	border:2px outset;
+	margin:10px;
+	padding:5px
+}
+table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+.img dd
+{
+	display: block;/*设置元素为块,自带换行*/
+	width: 125px;
+	margin: 10px 40px;
+	text-align: center;
+	border: 1px solid #DEDEDE;
+	padding: 0;
+}
+.right
+{
+	text-align:right;
+}
+textarea
+{
+	width:75%;
+}
+#submit
+{
+	background-color:blue;
+	color:white;
+	width:100%;
+	border:2px solid blue;
+	border-radius:20px;
+}
+
+footer
+{
+	line-height: 70px;/*行间距*/
+	background-color:black;
+	color:white;
+	text-align:center;
+}
