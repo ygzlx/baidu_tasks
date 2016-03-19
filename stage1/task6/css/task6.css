@@ -290,11 +290,11 @@ p.front-content{
 	color:#767777;
 	line-height:16px;
 	width:415px;
+	text-indent:24px;
 }
 #center-img{
-	position:absolute;
-	top:280px;
-	right:0;
+	float:right;
+	margin:10px;
 }
 /*-------------------------------中间右边配图----------------------------------------*/
 #center-right{
