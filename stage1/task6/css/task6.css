@@ -120,30 +120,28 @@ header #header-bottom{
 	margin-top:10px;
 	margin-bottom:10px;
 }
-pre.css{
-	font-size:21px;
-	color:#cc8091;
-	margin-top:25px;
-	margin-left:3px;
-	margin-bottom:-50px;
-}
+
 #css{
+	position:absolute;
+	top:230px;
+	left:0;
 	font-family:Microsoft YaHei;
 	color:#cc8091;
-	margin-top:-40px;
+	font-size:12px;
+	line-height:12px;
+	width:203px;
 }
 span.number{
 	font-size:55px;
+	float:left;
+	padding:28px 0;
 }
-span.csscss{
-	font-size:12px;
+span.css{
+	display:block;
+	font-size:21px;
+	margin-top:35px;
 }
-footer{
-	position:relative;
-	width:892px;
-	height:62px;
-	margin:0 44px 0;
-}
+
 /*-----------------------what when how------------------------------------------------*/
 #www{
 	position:relative;
@@ -273,13 +271,14 @@ span.www{
 	background-color:#11456b;
 }
 #front{
-	position:absolute;
-	top:160px;
-	left:0;
+	display:block;
+	float:left;
 	font-family:Microsoft YaHei;
 	font-size:70px;
 	color:#f5e327;
-	line-height:0;
+	ine-height:0;
+	padding:35px 0;
+	margin:0 9px 9px 0;
 }
 p.front-content{
 	position:absolute;
@@ -290,11 +289,10 @@ p.front-content{
 	color:#767777;
 	line-height:16px;
 	width:415px;
-	text-indent:24px;
 }
 #center-img{
 	float:right;
-	margin:10px;
+	margin:10px 0 10px 0;
 }
 /*-------------------------------中间右边配图----------------------------------------*/
 #center-right{
@@ -431,6 +429,12 @@ p.dot{
 	word-spacing:0;
 }
 /*-------------------------------------底部-------------------------------------------------*/
+footer{
+	position:relative;
+	width:892px;
+	height:62px;
+	margin:0 44px 0;
+}
 footer #footer-top{
 	position:absolute;
 	top:0;
