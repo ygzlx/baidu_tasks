@@ -1,0 +1,18 @@
+/* Scss Document */
+* {
+  margin: 0;
+  padding: 0; }
+
+#queue {
+  background-color: #B4A8A9; }
+  #queue div {
+    float: left;
+    margin: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    text-align: center; }
+	#queue div span{
+		color:black;}
+
+/*# sourceMappingURL=task18.css.map */
