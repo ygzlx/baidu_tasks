@@ -1,0 +1,27 @@
+/* Scss Document */
+* {
+  margin: 0;
+  padding: 0; }
+body{
+  padding: 10px;
+}
+ .clearfix div ,.clearfix p{
+    float: left;
+    margin: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    text-align: center; }
+.clearfix:before,.clearfix:after{
+  content:"";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+.clearfix{
+  margin: 10px 0;
+  background-color: #B4A8A9; 
+  zoom:1;/* IE < 8 
+}*/
+/*# sourceMappingURL=task18.css.map */
