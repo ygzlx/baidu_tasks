@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 10px;
+}
+.root{
+	width: 100%;
+}
+div{
+	border: 1px solid black;
+	background-color: #fff;
+	margin: 10px;
+}
+.flex-container{
+	width: 30%;
+}
+.root,.flex-container,.flex-items{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+.flex-items{
+	width: 100%;
+	margin: 5px 2px;
+}
+input{
+	width: 30%;
+}
