@@ -1,0 +1,32 @@
+
+/*-------------------------top------------------------------------*/
+#top {
+  width: 1280px;
+  height: 56px;
+  background-image: url("bg/top_bg.png");
+  background-repeat: no-repeat; }
+
+#logo {
+  float: left;
+  margin: 10px 50px; }
+
+#top-right {
+  float: right;
+  padding: 20px 50px;
+  height: 16px; }
+
+#search {
+  padding: 2px 2px 2px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  background-image: url("bg/search_bg.png");
+  background-repeat: no-repeat; }
+
+.vertical-middle {
+  vertical-align: middle; }
+
+#login {
+  font-family: SimHei;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px; }
